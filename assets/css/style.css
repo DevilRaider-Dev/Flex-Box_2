@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-*{
+* {
     margin: 0;
-}
-/*
-Font-family:"Raleway"
-Headerhöhe:76px
-Logofarbe: #666
-Logofarbe in hover: #333
-Menüfarbe: #333 
-Menüfarbe in hover: #337ab7
-*/
-nav{
     font-family: 'Raleway', sans-serif;
+}
+
+nav {
     width: 100%;
     height: 76px;
     display: flex;
@@ -19,42 +12,78 @@ nav{
     justify-content: space-between;
     border-bottom: 1px solid #666;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.logo{
+
+.logo {
     color: #666;
     font-size: 200%;
     margin-left: 1%;
 }
-.logo:hover{
+
+.logo:hover {
     color: #333
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     margin-right: 1%;
 }
-nav ul li{
+
+nav ul li {
     margin-right: 15px;
 }
-nav ul li:last-of-type{
-    margin:0;
+
+nav ul li:last-of-type {
+    margin: 0;
 }
-nav ul li a{
-    color:#333;
+
+nav ul li a {
+    color: #333;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #337ab7;
 }
 
-
-div{
+main {
+    background: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") center/cover no-repeat;
+    color: #fff;
+    height: 92vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
 }
-img{
-    width: 400px;
-    padding: .3%;
+main h1{
+    font-size: 400%;
+    margin-bottom: 2%;
+}
+main p{
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+.btn_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main button:nth-of-type(1) {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 3% 25%;
+    margin-right: 2%;
+}
+
+main button:nth-of-type(2) {
+    color:#fff;
+    background-color: #745cf9;
+    padding: 3% 35%;
+}
+main button:nth-of-type(2):hover {
+    background-color: #5234f9;
 }
