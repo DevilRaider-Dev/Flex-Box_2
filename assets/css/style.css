@@ -28,13 +28,10 @@ a {
 }
 
 nav ul {
+    width: 50%;
     list-style: none;
     display: flex;
-    margin-right: 1%;
-}
-
-nav ul li {
-    margin-right: 15px;
+    justify-content: space-around;
 }
 
 nav ul li:last-of-type {
@@ -87,6 +84,7 @@ main button:nth-of-type(1):hover {
     background: #fff;
     color: #333;
 }
+
 main button:nth-of-type(2) {
     color: #fff;
     background-color: #745cf9;
